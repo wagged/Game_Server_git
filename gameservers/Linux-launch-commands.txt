@@ -1,0 +1,21 @@
+74.71.43.117
+67.249.213.100
+
+cd /gameservers/fear_combat
+./start.sh
+
+fear server commands: http://www.teamwarfare.com/forums/showthread.asp?forumid=338&threadid=280088
+http://www.3dgameman.com/forums//showthread.php?t=45164
+
+cd /gameservers/srcds/orangebox
+./srcds_run -console -game tf +ip 192.168.2.2 -port 27015 +map ctf_2fort +maxplayers 32
+
+cd /gameservers/srcds
+./srcds_run -console -game cstrike +ip 192.168.2.2 -port 27015 +map z_office_alpha02 +maxplayers 32
+
+cd /gameservers/srcds
+./srcds_run -console -game hl2mp +ip 192.168.2.2 -port 27015 +map dm_runoff +maxplayers 32
+
+cd /gameservers/UT2004-Dedicated-3369/System
+./ucc-bin server ONS-Torlan?game=Onslaught.ONSOnslaughtGame ini=UT2004.ini-new0 log=console-log.log 
+

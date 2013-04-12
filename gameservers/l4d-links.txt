@@ -1,0 +1,10 @@
+Left4Dead links:
+http://forums.steampowered.com/forums/showthread.php?t=745441&highlight=left4dead
+http://forums.steampowered.com/forums/search.php?searchid=3849857
+http://forums.steampowered.com/forums/showthread.php?t=986761
+http://forum.i3d.net/hlds-valve-windows-newsletter/47724-hlds-s_api-fail-steamapi_init-failed-unable-update-local-steamclient-continuing-current-versionanyway.html
+http://www.google.com/search?client=safari&rls=en&q=%5BS_API+FAIL%5D+SteamAPI_Init()+failed;+unable+to+update+local+steamclient.+Continuing+with+current+version+anyway.&ie=UTF-8&oe=UTF-8
+http://left4dead411.com/news/2008/11/steam-tie-in-l4d-servers/
+http://www.velocity-servers.net/forums/index.php?showtopic=5365
+http://forums.srcds.com/viewtopic/12511
+http://forums.firedaemon.com/left-4-dead-dedicated-t475.html?s=c48f5fe190941f83dbff20e594976a0b&amp;http://www.left4dead411.com/l4d_cvar_list.pdf

@@ -1,0 +1,63 @@
+
+https://developer.valvesoftware.com/wiki/Steam_Application_IDs
+https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
+http://www.crazyws.fr/tutos/installer-un-serveur-counter-strike-global-offensive-X4LCM.html
+http://www.darklygaming.com/game-articles/cs-go-articles/334-how-to-create-a-cs-go-dedicated-server
+https://github.com/crazy-max/csgo-server-launcher/blob/master/csgo-server-launcher.sh
+
+//mapgroups
+
+https://secure.branzone.com/knowledgebase/54/Counter-Strike-Global-Offensive-Default-Map-Groups.html
+https://developer.valvesoftware.com/wiki/Counter-Strike:_Global_Offensive_Dedicated_Servers
+
+./srcds_run +sv_pure 0 + + $IP $WANIP +game_type 1 +game_mode 0 +mapgroup mg_armsrace +map cs_office
+
+
+cd /gameservers/steamcmd/csgo/
+./srcds_run -game csgo -console -usercon +game_type 1 +game_mode 0 +mapgroup mg_armsrace +map ar_shoots
+
+./srcds_run -game csgo -console -usercon +game_type 0 +game_mode 0 +mapgroup mg_hostage +map cs_italy
+
+
+bot_join_team T
+bot_add_t 10
+
+
+tf_mvm_min_players_to_start
+tf_mm_servermode
+
+
+// MvM settings
+tf_mm_servermode 2
+mp_tournament 1
+tf_mm_strict 1
+tf_mvm_min_players_to_start 1
+
+
+
+
+
+Sat Feb  9 23:03:57 EST 2013
+Auto detecting CPU
+Using default binary: ./srcds_linux
+Server will auto-restart if there is a crash.
+Using breakpad minidump system
+Using breakpad crash handler
+
+Console initialized.
+Game_srv.so loaded for "Team Fortress"
+Setting breakpad minidump AppID = 440
+Forcing breakpad minidump interfaces to load
+dlopen failed trying to load:
+/home/runner/.steam/sdk32/steamclient.so
+with error:
+/home/runner/.steam/sdk32/steamclient.so: cannot open shared object file: No such file or directory
+Looking up breakpad interfaces from steamclient
+Calling BreakpadMiniDumpSystemInit
+Segmentation fault
+Add "-debug" to the ./srcds_run command line to generate a debug.log to help with solving this problem
+Sat Feb  9 23:04:01 EST 2013: Server restart in 10 seconds
+Sat Feb  9 23:04:04 EST 2013: Server Quit
+
+./srcds_run -command update -game tf -dir . -verify all
+./srcds_linux -console -game tf -steambin /home/runner/gameservers/srcds +map mvm_coaltown
